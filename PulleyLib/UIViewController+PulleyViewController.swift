@@ -1,4 +1,12 @@
 //
+// UIViewController+PulleyViewController.swift
+// Intervals App
+//
+// Copyright (c) 2025 John Keller
+// Created by John Keller on 4/28/18
+//
+
+//
 //  UIViewController+PulleyViewController.swift
 //  Pulley
 //
@@ -8,7 +16,6 @@
 import UIKit
 
 public extension UIViewController {
-
     /// If this viewController pertences to a PulleyViewController, return it.
     var pulleyViewController: PulleyViewController? {
         var parentVC = parent
